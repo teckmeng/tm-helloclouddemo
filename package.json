@@ -1,0 +1,13 @@
+{
+  "name":               "tm-helloclouddemo",
+  "main":               "nodeserver.js",
+  "description":        "CloudFoundry Hello World Node.js server",
+  "author":             "TechMan",
+  "version":            "0.1.0",
+  "homepage":           "https://github.com/teckmeng/tm-helloclouddemo.git",
+  "repository":         {"type": "git", "url": "git://github.com/teckmeng/tm-helloclouddemo" },
+  "dependencies":
+    {
+      "cfenv":          "1.0.x"
+    }
+  }

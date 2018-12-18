@@ -1,0 +1,10 @@
+#--------------------------------------
+# change the `host` property to a
+# unique hostname on the domain you
+# are deploying to.
+#--------------------------------------
+
+applications:
+- name:    tm-helloclouddemo
+  memory:  128M
+  command: node nodeserver.js
