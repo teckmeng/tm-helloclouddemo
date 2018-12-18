@@ -16,6 +16,7 @@ server.listen(appEnv.port, function() {
 function onRequest(request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"})
 
-  response.end("Hello GREENIE World - v1 - running on instance [" + instance + "] <BR>\n")
+  response.end("Hello BLUEY World - v1 - running on instance [" + instance + "] <BR>\n")
+//  response.end("Hello GREENIE World - v2 - running on instance [" + instance + "] <BR>\n")
   response.end("\n")
 }

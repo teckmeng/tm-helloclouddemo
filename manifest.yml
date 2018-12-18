@@ -5,6 +5,6 @@
 #--------------------------------------
 
 applications:
-- name:    tm-helloclouddemo
+- name:    tm-helloclouddemov1
   memory:  128M
   command: node nodeserver.js
